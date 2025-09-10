@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaS</title>
+</head>
+<body>
+    <h1>This is the navigation bar from base.html</h1>
+    <h3>{{ name }}</h3>
+    
+    {% block content %}
+        <p>This is the default content from base.html</p>
+    {% endblock content %}
+
+    <h3>Page visits {{page_visits}}</h3><br>
+    <h3>Total visits {{total_visits}}</h3><br>
+</body>
+</html>
